@@ -1,0 +1,30 @@
+print('Welcome to "Choose Your Own Adventure: Halloween Edition!" ')
+
+# Begin by asking the user to enter their name.
+name = input("Enter your name: ")
+print() # Include an extra print() functions when appropriate 
+        # to create spacing in your text output.
+
+#Feel free to change this intro to your adventure.
+print("Greetings " + name + ". So... you and a couple of friends...")
+print("decided to check out the haunted mansion up on Castle Hill")
+
+# After this initial choice, you will begin to use your if-elif-else conditionals 
+# that will branch out your story and create the different pathways to your various  
+# endings as the user makes the choices in the parentheses.
+start = input("Are you sure you want to do that? (yes or no) ")
+print("OK, but just know you have been warned...")
+
+#Start coding your adventure below this comment! Have fun!
+
+print("OK, into the house you go. You avoid a hole in the porch and brush thick spiderwebs out of your way as you head into the house. As you enter, the wind picks up and the door slams shut behind you with a deep thud and the old large brass doorknob falls off and rolls toward your feet.")
+print()
+print("You hear some creaking downstairs and a growling noise in the library. Do you go investigate, go upstairs, or retreat?")
+input("(library, upstairs, or retreat)")
+if "library":
+    print("You tiptoe quietly to the library and spot some fur. You look closer and see a pack of wolves. Do you turn back or attempt to make friends with them?")
+    input("(turn back or friends)")
+    if "friends":
+        print("You step closer to the pack's alpha, heart pounding as you're very anxious.")
+    else:
+        print("You slowly walk away, and the second your foot touches ground that's not on the porch, you and your friends run back to your car, never looking back.")
